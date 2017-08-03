@@ -1,0 +1,19 @@
+syntax = "proto2";
+
+package blockid;
+
+option java_package = "de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated";
+option java_outer_classname = "IdentityAssertionProto";
+
+message IdentityAssertionMessage {
+  required string senderAdressBase64 = 1;
+  required IdentityAssertion identityAssertion = 2;
+  optional string messageSignatureBase64 = 3;
+
+  message IdentityAssertion {
+	required string receiverAdressBase64 = 1;
+    required string identity_attribute_name = 2;
+	required string identity_attribute_value_base64 = 3;
+	optional string identitiy_mark_secret_base64 =4;
+  }
+}
