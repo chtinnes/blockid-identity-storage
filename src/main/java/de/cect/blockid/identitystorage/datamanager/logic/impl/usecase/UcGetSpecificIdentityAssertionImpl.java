@@ -23,7 +23,7 @@ public class UcGetSpecificIdentityAssertionImpl implements UcGetSpecificIdentity
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see de.cect.blockid.identitystorage.datamanager.logic.api.usecase.
+	 * @see de.cect.blockid.identitystorage.identitystorage.datamanager.logic.api.usecase.
 	 * UcGetSpecificIdentityAssertion#getAllIdentityAssertionsForReceiver(java.lang.
 	 * String, java.lang.String, java.lang.String)
 	 */

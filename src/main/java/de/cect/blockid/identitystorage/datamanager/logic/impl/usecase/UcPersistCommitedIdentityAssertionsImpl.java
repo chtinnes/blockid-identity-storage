@@ -42,7 +42,7 @@ public class UcPersistCommitedIdentityAssertionsImpl implements UcPersistCommite
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see de.cect.blockid.identitystorage.datamanager.logic.api.usecase.
+	 * @see de.cect.blockid.identitystorage.identitystorage.datamanager.logic.api.usecase.
 	 * UcPersistCommitedIdentityAssertions#persistCommitedIdentityAssertions()
 	 */
 	@Override

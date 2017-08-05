@@ -30,9 +30,9 @@ public class UcSendIdAssertionImpl implements UcSendIdAssertion {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * de.cect.blockid.identitystorage.blockchainadapter.logic.api.usecase.
+	 * de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api.usecase.
 	 * UcSendIdAssertion#
-	 * sendIdAssertion(de.cect.blockid.identitystorage.blockchainadapter.logic
+	 * sendIdAssertion(de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic
 	 * .api.to. IdAssertionMessageTo)
 	 */
 	@Override

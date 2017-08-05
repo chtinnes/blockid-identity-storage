@@ -29,7 +29,7 @@ public class UcGetAllIdentityAssertionsForReceiverImpl implements UcGetAllIdenti
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see de.cect.blockid.identitystorage.datamanager.logic.api.usecase.
+	 * @see de.cect.blockid.identitystorage.identitystorage.datamanager.logic.api.usecase.
 	 * UcGetAllIdentityAssertionsForReceiver#getAllIdentityAssertionsForReceiver(
 	 * java.lang.String)
 	 */

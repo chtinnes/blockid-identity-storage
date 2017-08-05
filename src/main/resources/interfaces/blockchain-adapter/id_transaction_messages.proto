@@ -2,7 +2,7 @@ syntax = "proto2";
 
 package blockid;
 
-option java_package = "de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated";
+option java_package = "de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api.generated";
 option java_outer_classname = "IdentityAssertionProto";
 
 message IdentityAssertionMessage {

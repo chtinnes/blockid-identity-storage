@@ -29,7 +29,7 @@ public class UcFetchIdAssertionsImpl implements UcFetchIdAssertions {
 	 * (non-Javadoc)
 	 * 
 	 * @see
-	 * de.cect.blockid.identitystorage.blockchainadapter.logic.api.usecase.UcFetchIdAssertions#
+	 * de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api.usecase.UcFetchIdAssertions#
 	 * fetchIdAssertions()
 	 */
 	@Override

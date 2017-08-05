@@ -31,7 +31,7 @@ public class UcPersistApplicationStateImpl implements UcPersistApplicationState 
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see de.cect.blockid.identitystorage.blockchainadapter.logic.api.usecase.
+	 * @see de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api.usecase.
 	 * UcPersistApplicationState#persistApplicationState()
 	 */
 	@Override

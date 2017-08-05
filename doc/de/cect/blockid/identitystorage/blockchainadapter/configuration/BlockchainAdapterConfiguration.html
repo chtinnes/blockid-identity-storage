@@ -92,7 +92,7 @@ var activeTableTab = "activeTableTab";
 <!-- ========= END OF TOP NAVBAR ========= -->
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle">de.cect.blockid.identitystorage.blockchainadapter.configuration</div>
+<div class="subTitle">de.cect.blockid.identitystorage.identitystorage.blockchainadapter.configuration</div>
 <h2 title="Class BlockchainAdapterConfiguration" class="title">Class BlockchainAdapterConfiguration</h2>
 </div>
 <div class="contentContainer">
@@ -100,7 +100,7 @@ var activeTableTab = "activeTableTab";
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>de.cect.blockid.identitystorage.blockchainadapter.configuration.BlockchainAdapterConfiguration</li>
+<li>de.cect.blockid.identitystorage.identitystorage.blockchainadapter.configuration.BlockchainAdapterConfiguration</li>
 </ul>
 </li>
 </ul>
@@ -110,7 +110,7 @@ var activeTableTab = "activeTableTab";
 <hr>
 <br>
 <pre>@Configuration
- @EntityScan(value="de.cect.blockid.identitystorage.blockchainadapter")
+ @EntityScan(value="de.cect.blockid.identitystorage.identitystorage.blockchainadapter")
 public class <span class="typeNameLabel">BlockchainAdapterConfiguration</span>
 extends java.lang.Object</pre>
 <div class="block">Configuration for the blockchain adapter.</div>
@@ -137,7 +137,7 @@ extends java.lang.Object</pre>
 <th class="colLast" scope="col">Field and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>private <a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/dataaccess/ApplicationStateRepository.html" title="interface in de.cect.blockid.identitystorage.blockchainadapter.dataaccess">ApplicationStateRepository</a></code></td>
+<td class="colFirst"><code>private <a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/dataaccess/ApplicationStateRepository.html" title="interface in de.cect.blockid.identitystorage.identitystorage.blockchainadapter.dataaccess">ApplicationStateRepository</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/configuration/BlockchainAdapterConfiguration.html#applicationStateRepository">applicationStateRepository</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
@@ -181,11 +181,11 @@ extends java.lang.Object</pre>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/configuration/BlockchainAdapterConfiguration.html#blockchainSocket--">blockchainSocket</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i1" class="rowColor">
-<td class="colFirst"><code><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/api/IBlockchainListener.html" title="interface in de.cect.blockid.identitystorage.blockchainadapter.logic.api">IBlockchainListener</a></code></td>
+<td class="colFirst"><code><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/api/IBlockchainListener.html" title="interface in de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api">IBlockchainListener</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/configuration/BlockchainAdapterConfiguration.html#counterListener--">counterListener</a></span>()</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
-<td class="colFirst"><code><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/base/IdAssertionMessageCache.html" title="class in de.cect.blockid.identitystorage.blockchainadapter.logic.base">IdAssertionMessageCache</a></code></td>
+<td class="colFirst"><code><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/base/IdAssertionMessageCache.html" title="class in de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.base">IdAssertionMessageCache</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/configuration/BlockchainAdapterConfiguration.html#messageCache--">messageCache</a></span>()</code>&nbsp;</td>
 </tr>
 </table>
@@ -217,7 +217,7 @@ extends java.lang.Object</pre>
 <li class="blockList">
 <h4>applicationStateRepository</h4>
 <pre>@Autowired
-private&nbsp;<a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/dataaccess/ApplicationStateRepository.html" title="interface in de.cect.blockid.identitystorage.blockchainadapter.dataaccess">ApplicationStateRepository</a> applicationStateRepository</pre>
+private&nbsp;<a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/dataaccess/ApplicationStateRepository.html" title="interface in de.cect.blockid.identitystorage.identitystorage.blockchainadapter.dataaccess">ApplicationStateRepository</a> applicationStateRepository</pre>
 </li>
 </ul>
 <a name="port">
@@ -262,7 +262,7 @@ private&nbsp;int port</pre>
 <li class="blockList">
 <h4>messageCache</h4>
 <pre>@Bean
-public&nbsp;<a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/base/IdAssertionMessageCache.html" title="class in de.cect.blockid.identitystorage.blockchainadapter.logic.base">IdAssertionMessageCache</a>&nbsp;messageCache()</pre>
+public&nbsp;<a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/base/IdAssertionMessageCache.html" title="class in de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.base">IdAssertionMessageCache</a>&nbsp;messageCache()</pre>
 </li>
 </ul>
 <a name="counterListener--">
@@ -272,7 +272,7 @@ public&nbsp;<a href="../../../../../../de/cect/blockid/identitystorage/blockchai
 <li class="blockList">
 <h4>counterListener</h4>
 <pre>@Bean
-public&nbsp;<a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/api/IBlockchainListener.html" title="interface in de.cect.blockid.identitystorage.blockchainadapter.logic.api">IBlockchainListener</a>&nbsp;counterListener()</pre>
+public&nbsp;<a href="../../../../../../de/cect/blockid/identitystorage/blockchainadapter/logic/api/IBlockchainListener.html" title="interface in de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api">IBlockchainListener</a>&nbsp;counterListener()</pre>
 </li>
 </ul>
 <a name="blockchainSocket--">

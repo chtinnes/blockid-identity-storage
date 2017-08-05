@@ -707,7 +707,7 @@ public final class IdentityAssertionProto {
                   de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.IdentityAssertion.class, de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.IdentityAssertion.Builder.class);
         }
 
-        // Construct using de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.IdentityAssertion.newBuilder()
+        // Construct using de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.IdentityAssertion.newBuilder()
         private Builder() {
           maybeForceBuilderInitialization();
         }
@@ -1547,7 +1547,7 @@ public final class IdentityAssertionProto {
                 de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.class, de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.Builder.class);
       }
 
-      // Construct using de.cect.blockid.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.newBuilder()
+      // Construct using de.cect.blockid.identitystorage.identitystorage.blockchainadapter.logic.api.generated.IdentityAssertionProto.IdentityAssertionMessage.newBuilder()
       private Builder() {
         maybeForceBuilderInitialization();
       }

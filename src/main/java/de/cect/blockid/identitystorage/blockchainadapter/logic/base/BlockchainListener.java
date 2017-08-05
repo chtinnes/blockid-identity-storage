@@ -2,7 +2,6 @@ package de.cect.blockid.identitystorage.blockchainadapter.logic.base;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
 import org.apache.tomcat.util.buf.HexUtils;
 import org.slf4j.Logger;
@@ -133,9 +132,10 @@ public class BlockchainListener implements IBlockchainListener {
 			lastBlockHeight = defaultBlockHeight;
 		}
 		lastBlockHeight++;
-		// TODO ctinnes this is a dummy commit only
+		// TODO ctinnes this is a dummy commit only there should be a well defined
+		// application state which is hashed at this point
 		return ResponseCommit.newBuilder().setCode(CodeType.OK)
-				.setData(ByteString.copyFrom(UUID.randomUUID().toString().getBytes())).build();
+				.setData(ByteString.copyFrom(Long.toHexString(lastBlockHeight).getBytes())).build();
 	}
 
 	@Override
@@ -167,6 +167,7 @@ public class BlockchainListener implements IBlockchainListener {
 	 * jabci.types.Types.RequestInfo)
 	 */
 	@Override
+	// TODO ctinnes Last App Hash has to be returned as well
 	public ResponseInfo requestInfo(RequestInfo req) {
 		if (this.applicationStateRepository.count() == 1) {
 			ApplicationStateEntity applicationState = this.applicationStateRepository.findAll().iterator().next();

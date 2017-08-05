@@ -29,7 +29,7 @@ public class DatamanagerImpl implements Datamanager {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see de.cect.blockid.identitystorage.datamanager.logic.api.usecase.
+	 * @see de.cect.blockid.identitystorage.identitystorage.datamanager.logic.api.usecase.
 	 * UcGetAllIdentityAssertionsForReceiver#getAllIdentityAssertionsForReceiver(
 	 * java.lang.String)
 	 */
@@ -41,7 +41,7 @@ public class DatamanagerImpl implements Datamanager {
 	/*
 	 * (non-Javadoc)
 	 * 
-	 * @see de.cect.blockid.identitystorage.datamanager.logic.api.usecase.
+	 * @see de.cect.blockid.identitystorage.identitystorage.datamanager.logic.api.usecase.
 	 * UcGetSpecificIdentityAssertion#getAllIdentityAssertionsForReceiver(java.lang.
 	 * String, java.lang.String, java.lang.String)
 	 */

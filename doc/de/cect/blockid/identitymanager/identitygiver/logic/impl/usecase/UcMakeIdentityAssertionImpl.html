@@ -92,7 +92,7 @@ var activeTableTab = "activeTableTab";
 <!-- ========= END OF TOP NAVBAR ========= -->
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
-<div class="subTitle">de.cect.blockid.identitymanager.identitygiver.logic.impl.usecase</div>
+<div class="subTitle">de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.impl.usecase</div>
 <h2 title="Class UcMakeIdentityAssertionImpl" class="title">Class UcMakeIdentityAssertionImpl</h2>
 </div>
 <div class="contentContainer">
@@ -100,7 +100,7 @@ var activeTableTab = "activeTableTab";
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>de.cect.blockid.identitymanager.identitygiver.logic.impl.usecase.UcMakeIdentityAssertionImpl</li>
+<li>de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.impl.usecase.UcMakeIdentityAssertionImpl</li>
 </ul>
 </li>
 </ul>
@@ -109,7 +109,7 @@ var activeTableTab = "activeTableTab";
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitymanager.identitygiver.logic.api.usecase">UcMakeIdentityAssertion</a></dd>
+<dd><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.usecase">UcMakeIdentityAssertion</a></dd>
 </dl>
 <hr>
 <br>
@@ -117,8 +117,8 @@ var activeTableTab = "activeTableTab";
  @Profile(value="idgiver")
 public class <span class="typeNameLabel">UcMakeIdentityAssertionImpl</span>
 extends java.lang.Object
-implements <a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitymanager.identitygiver.logic.api.usecase">UcMakeIdentityAssertion</a></pre>
-<div class="block">Implementation of <a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitymanager.identitygiver.logic.api.usecase"><code>UcMakeIdentityAssertion</code></a></div>
+implements <a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.usecase">UcMakeIdentityAssertion</a></pre>
+<div class="block">Implementation of <a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.usecase"><code>UcMakeIdentityAssertion</code></a></div>
 <dl>
 <dt><span class="simpleTagLabel">Since:</span></dt>
 <dd>blockid-0.0.1</dd>
@@ -144,7 +144,7 @@ implements <a href="../../../../../../../../de/cect/blockid/identitymanager/iden
 <th class="colLast" scope="col">Field and Description</th>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>private <a href="../../../../../../../../de/cect/blockid/identitymanager/gerneral/common/CryptoUtils.html" title="class in de.cect.blockid.identitymanager.gerneral.common">CryptoUtils</a></code></td>
+<td class="colFirst"><code>private <a href="../../../../../../../../de/cect/blockid/identitymanager/gerneral/common/CryptoUtils.html" title="class in de.cect.blockid.identitystorage.identitymanager.gerneral.common">CryptoUtils</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#cryptoUtils">cryptoUtils</a></span></code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
@@ -160,7 +160,7 @@ implements <a href="../../../../../../../../de/cect/blockid/identitymanager/iden
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#publicKey">publicKey</a></span></code>&nbsp;</td>
 </tr>
 <tr class="altColor">
-<td class="colFirst"><code>private <a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/TransactionManagerAdapter.html" title="interface in de.cect.blockid.identitymanager.transactionmanageradapter.logic.api">TransactionManagerAdapter</a></code></td>
+<td class="colFirst"><code>private <a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/TransactionManagerAdapter.html" title="interface in de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api">TransactionManagerAdapter</a></code></td>
 <td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#transactionManagerAdapter">transactionManagerAdapter</a></span></code>&nbsp;</td>
 </tr>
 </table>
@@ -196,19 +196,19 @@ implements <a href="../../../../../../../../de/cect/blockid/identitymanager/iden
 <th class="colLast" scope="col">Method and Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code>private <a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionTo.html" title="class in de.cect.blockid.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionTo</a></code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#computeIdentityAssertion-de.cect.blockid.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">computeIdentityAssertion</a></span>(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</code>
+<td class="colFirst"><code>private <a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionTo</a></code></td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#computeIdentityAssertion-de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">computeIdentityAssertion</a></span>(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</code>
 <div class="block">This method computes the encrypted identity assertion from the given plain
  data.</div>
 </td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>private java.lang.String</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#computeSignatureBase64-de.cect.blockid.identitymanager.transactionmanageradapter.logic.api.to.IdAssertionMessageTo-">computeSignatureBase64</a></span>(<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionMessageTo.html" title="class in de.cect.blockid.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionMessageTo</a>&nbsp;message)</code>&nbsp;</td>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#computeSignatureBase64-de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api.to.IdAssertionMessageTo-">computeSignatureBase64</a></span>(<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionMessageTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionMessageTo</a>&nbsp;message)</code>&nbsp;</td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>void</code></td>
-<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#makeIdentityAssertion-de.cect.blockid.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">makeIdentityAssertion</a></span>(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</code>
+<td class="colLast"><code><span class="memberNameLink"><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/impl/usecase/UcMakeIdentityAssertionImpl.html#makeIdentityAssertion-de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">makeIdentityAssertion</a></span>(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</code>
 <div class="block">Make an identity assertion, encrypt it and send it to a
  (blockchain)-transaction manager.</div>
 </td>
@@ -251,7 +251,7 @@ implements <a href="../../../../../../../../de/cect/blockid/identitymanager/iden
 <li class="blockList">
 <h4>transactionManagerAdapter</h4>
 <pre>@Autowired
-private&nbsp;<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/TransactionManagerAdapter.html" title="interface in de.cect.blockid.identitymanager.transactionmanageradapter.logic.api">TransactionManagerAdapter</a> transactionManagerAdapter</pre>
+private&nbsp;<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/TransactionManagerAdapter.html" title="interface in de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api">TransactionManagerAdapter</a> transactionManagerAdapter</pre>
 </li>
 </ul>
 <a name="cryptoUtils">
@@ -261,7 +261,7 @@ private&nbsp;<a href="../../../../../../../../de/cect/blockid/identitymanager/tr
 <li class="blockList">
 <h4>cryptoUtils</h4>
 <pre>@Autowired
-private&nbsp;<a href="../../../../../../../../de/cect/blockid/identitymanager/gerneral/common/CryptoUtils.html" title="class in de.cect.blockid.identitymanager.gerneral.common">CryptoUtils</a> cryptoUtils</pre>
+private&nbsp;<a href="../../../../../../../../de/cect/blockid/identitymanager/gerneral/common/CryptoUtils.html" title="class in de.cect.blockid.identitystorage.identitymanager.gerneral.common">CryptoUtils</a> cryptoUtils</pre>
 </li>
 </ul>
 <a name="publicKey">
@@ -309,31 +309,31 @@ private&nbsp;java.lang.String privateKey</pre>
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a name="makeIdentityAssertion-de.cect.blockid.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">
+<a name="makeIdentityAssertion-de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>makeIdentityAssertion</h4>
-<pre>public&nbsp;void&nbsp;makeIdentityAssertion(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</pre>
-<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html#makeIdentityAssertion-de.cect.blockid.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">UcMakeIdentityAssertion</a></code></span></div>
+<pre>public&nbsp;void&nbsp;makeIdentityAssertion(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from interface:&nbsp;<code><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html#makeIdentityAssertion-de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">UcMakeIdentityAssertion</a></code></span></div>
 <div class="block">Make an identity assertion, encrypt it and send it to a
  (blockchain)-transaction manager.</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html#makeIdentityAssertion-de.cect.blockid.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">makeIdentityAssertion</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitymanager.identitygiver.logic.api.usecase">UcMakeIdentityAssertion</a></code></dd>
+<dd><code><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html#makeIdentityAssertion-de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">makeIdentityAssertion</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/usecase/UcMakeIdentityAssertion.html" title="interface in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.usecase">UcMakeIdentityAssertion</a></code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>identityAssertionPlainTo</code> - the plain identity assertion.</dd>
 </dl>
 </li>
 </ul>
-<a name="computeIdentityAssertion-de.cect.blockid.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">
+<a name="computeIdentityAssertion-de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to.IdentityAssertionPlainTo-">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>computeIdentityAssertion</h4>
-<pre>private&nbsp;<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionTo.html" title="class in de.cect.blockid.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionTo</a>&nbsp;computeIdentityAssertion(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</pre>
+<pre>private&nbsp;<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionTo</a>&nbsp;computeIdentityAssertion(<a href="../../../../../../../../de/cect/blockid/identitymanager/identitygiver/logic/api/to/IdentityAssertionPlainTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.identitygiver.logic.api.to">IdentityAssertionPlainTo</a>&nbsp;identityAssertionPlainTo)</pre>
 <div class="block">This method computes the encrypted identity assertion from the given plain
  data.</div>
 <dl>
@@ -344,13 +344,13 @@ private&nbsp;java.lang.String privateKey</pre>
 </dl>
 </li>
 </ul>
-<a name="computeSignatureBase64-de.cect.blockid.identitymanager.transactionmanageradapter.logic.api.to.IdAssertionMessageTo-">
+<a name="computeSignatureBase64-de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api.to.IdAssertionMessageTo-">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>computeSignatureBase64</h4>
-<pre>private&nbsp;java.lang.String&nbsp;computeSignatureBase64(<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionMessageTo.html" title="class in de.cect.blockid.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionMessageTo</a>&nbsp;message)</pre>
+<pre>private&nbsp;java.lang.String&nbsp;computeSignatureBase64(<a href="../../../../../../../../de/cect/blockid/identitymanager/transactionmanageradapter/logic/api/to/IdAssertionMessageTo.html" title="class in de.cect.blockid.identitystorage.identitymanager.transactionmanageradapter.logic.api.to">IdAssertionMessageTo</a>&nbsp;message)</pre>
 </li>
 </ul>
 </li>
