@@ -14,6 +14,9 @@ These assertions are of the form:
 Since the identity assertions are broadcasted to everyone in the distributed network the attribute_value is encrypted and can only be decrypted by the identity receiver(*someone* in the above terminology).
 If the receiver needs to show this identity assertion to someone else he can reference the assertion and give him the one-time key used to encrypt the attribute_value.
 
+The following Component Diagram shows the main componenets, their relationships and interfaces.
+![Component Diagram should appear here](https://user-images.githubusercontent.com/17828327/29003245-878a89e8-7ab3-11e7-8bee-3eb2a111307b.png)
+
 ## BlockId Identity Storage
 This repository contains the application which handles storage and broadcasting of the identity assertions.
 
